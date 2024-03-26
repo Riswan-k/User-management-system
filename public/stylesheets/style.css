@@ -1,0 +1,68 @@
+body{
+  background-color:  #f5f5f2 !important;
+}
+
+#invalidcredentials{
+  text-align: center !important;
+  color: red;
+}
+
+#logout{
+  text-align: center !important;
+}
+
+/* #login-form{
+  padding: 10%; 
+} */
+#login-div{
+  background-color: white;
+  height: 75vh;
+}
+
+#hero-image{
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+
+#error-fullbody{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#error-head{
+  color: red;
+}
+
+#signupdiv{
+   background-color: white;
+   border: 1px thick black;
+   border-radius: 5px;
+   padding: 6rem;
+}
+
+
+
+@media (max-width: 991px){
+  #login-div{
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+  }
+  #hero-image{
+      border-top-right-radius: 25px;
+      border-top-left-radius: 25px;
+  }
+}
+
+@media (min-width: 992px){
+  #login-div{
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+  }
+  #hero-image{
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+  }
+}
